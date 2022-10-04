@@ -1,0 +1,211 @@
+*{  padding: 0;
+    margin: 0;
+    
+}
+.header1{
+    display: grid ;
+    grid-template-columns: 45px auto;
+    grid-template-rows: 45px;
+    justify-content:space-between;
+    align-items:center;
+    align-content: space-between;
+    background: url(../image/header\ 1.png);
+    background-position: center;
+    background-size: cover;
+    
+    padding-top: 20px ;
+    padding-left: 25px;
+    padding-right: 50px;
+    padding-bottom: 20px; 
+    
+}
+.header1 ul {
+    display:flex;
+    flex-direction: row;
+}
+
+.header1 ul li {
+    list-style: none;
+    padding: 2em;
+    margin: 0px;
+    height: 25px;
+    width: 25px;
+
+}
+
+.header1 ul li a {color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1em;
+    height: 25px;
+    width: 25px;
+    
+    
+}
+.header1 ul li a:hover { display: grid ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 45px;
+    justify-content:space-around;
+    justify-content: center;
+    text-align: center;
+    transform: translate(20px 50px);
+    transform:scale(1.5);
+    
+    background-color: rgb(56, 0, 90);
+    
+}
+
+.logo01 {display: grid;
+    height: 50px;
+    padding-top: 20px;
+    margin: 1px;
+    align-items:baseline ;
+    overflow: hidden;
+    
+    
+}
+
+.logo02 {display: flex;
+    padding-top: 10px;
+    height: 50px;
+    overflow: hidden;  
+    backdrop-filter:  opacity(50%);
+}
+
+.header2 {display: grid ;
+    grid-template-columns: 1fr auto ;
+    grid-template-rows: 40px;
+    justify-content:space-between;
+    justify-items: center;
+    align-items: center;
+    
+    padding: 2em;
+    padding-left: 30px;
+    padding-right: 30px
+    
+    
+    
+}
+.header2 ul {
+    display: flex;
+    flex-direction: row;
+    
+}
+.header2 ul li {
+    list-style: none;
+    padding: 10px;
+    position: relative
+} 
+
+.header2 ul li a {color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    
+    
+ }
+ .header2 ul li a:hover {display: grid;
+    grid-column-start: auto;
+    justify-content: center;
+    transform: translate(20px 50px);
+    transform:scale(1.5);
+    position: relative;
+    background-color: rgb(225, 225, 236);
+
+}
+.link{  
+    background-color: aqua;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin: 2px;
+    text-shadow: 5px 5px 5px rgb(250, 249, 249);
+}
+.link01 {background-color: aqua;
+    padding: 20px 30px;
+    border-radius: 20px;
+    margin: 5px;
+    justify-items: center;
+    
+    padding: 0px;
+}
+.titulo1 {display: flex;
+    
+    position:static;
+    /* padding-top: 10px;
+    margin: 10px; */
+    justify-content:center;
+    align-content: center;
+    font-size: 75px;
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    overflow: hidden;
+    
+
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: sticky;
+    color: #b8c1ec;
+
+}
+.izquierda{
+    background-color: #232946;
+    background-size: cover;
+    height: 100vh;
+    color: #b8c1ec;
+    padding: 10px;
+    font-size: 18px;
+    
+    
+}
+.derecha{display:grid;
+    grid-template-columns: repeat();
+    background: url(../image/blacksmith\ building\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 10px;
+    
+}
+.articulo{display: grid;
+    grid-template-columns: 1 fr 1fr;
+    
+}
+.pantalla_izquierda{
+    background-color: coral;
+   
+    height: 50%;
+    width: 50%;
+
+}
+.pantalla_derecha{ 
+    display: grid;
+    align-items: initial;
+    background: url(../image/fondo.jpg);
+    background-size: cover;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    
+    
+}
+/* .aside1 :hover {background-color: rgb(184, 25, 25);
+    display: grid;
+    height: 75px;
+    transform: scale(3 0);
+
+    animation-delay: 1s;
+} */
+
+.pie{display: flex;
+    
+    position:static;
+    justify-content:center;
+    align-content: center;
+    font-size: 75px;
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    overflow: hidden;
+    
+}
