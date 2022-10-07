@@ -22,42 +22,6 @@ to {left: 200px;}
 
 }
 
-.header1 ul {
-    display:flex;
-    flex-direction: row;
-}
-
-.header1 ul li {
-    list-style: none;
-    padding: 2em;
-    margin: 0px;
-    height: 25px;
-    width: 25px;
-
-}
-
-.header1 ul li a {color: black;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 1em;
-    height: 25px;
-    width: 25px;
-    
-    
-}
-.header1 ul li a:hover { display: grid ;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 45px;
-    justify-content:space-around;
-    justify-content: center;
-    text-align: center;
-    transform: translate(20px 50px);
-    transform:scale(1.5);
-    
-    background-color: rgb(56, 0, 90);
-    
-}
-
 .logo01 {display: grid;
     height: 50px;
     padding-top: 20px;
