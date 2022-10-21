@@ -1,0 +1,27 @@
+{
+  "name": "the-forge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/forga3.scss css/forga3.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saucedo-e-victor/forge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saucedo-e-victor/forge/issues"
+  },
+  "homepage": "https://github.com/Saucedo-e-victor/forge#readme",
+  "dependencies": {
+    "-": "^0.0.1"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  },
+  "description": ""
+}

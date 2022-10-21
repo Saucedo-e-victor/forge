@@ -2,19 +2,28 @@
     margin: 0;
     
 }
-body{
-    
-    min-height: 100vh;
-}
-
-.sticky{ position: -webkit-sticky;
-    
-    position: sticky;
-    
-    top: 0%;
 
     
+
+
+@media only screen and (min-width: 0px) and (min-width: 600px) {
+    .container{
+        display: grid;
+        grid-template-areas:
+        "header2 header2"
+        "navIzq navDer"
+        "parrafoimg parrafoimg"
+        "footer footer";
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 70px auto 1fr 100px;
+        
+
+    }
 }
+/* main{
+    position: relative;
+  
+} */
 
 @keyframes opacity{ 100% {opacity: 0;}
 from {left: 0px;}
@@ -22,11 +31,11 @@ to {left: 200px;}
 
 }
 
-.logo01 {display: grid;
-    height: 50px;
-    padding-top: 20px;
+.logo01 {
+    
+    padding-top: 10px;
     margin: 1px;
-    align-items:baseline ;
+    
     overflow: hidden;
     
     
@@ -40,15 +49,14 @@ to {left: 200px;}
 }
 
 .header2 {display: grid ;
-    grid-template-columns: 1fr auto ;
-    grid-template-rows: 40px;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 20px;
     justify-content:space-between;
     justify-items: center;
     align-items: center;
-    background-color: black;
-    padding: 2em;
-    padding-left: 30px;
-    padding-right: 30px
+    background-color: rgb(8, 8, 8);
+    
+    
     
     
     
@@ -56,15 +64,16 @@ to {left: 200px;}
 .header2 ul {
     display: flex;
     flex-direction: row;
+    position: relative;
     
 }
 .header2 ul li {
     list-style: none;
-    padding: 10px;
+    padding: 5px;
     position: relative
 } 
 
-.header2 ul li a {color: black;
+.header2 ul li a {color: rgb(230, 217, 217);
     text-decoration: none;
     text-transform: uppercase;
 
@@ -77,40 +86,40 @@ to {left: 200px;}
     transform: translate(20px 50px);
     transform:scale(1.5);
     position: relative;
-    background-color: rgb(225, 225, 236);
+    background-color: rgba(53, 5, 5, 0.096);
 
 }
 .link{  
-    background-color: aqua;
+    background-color: rgba(2, 2, 2, 0.493);
     padding: 20px 20px;
     border-radius: 10px;
     margin: 2px;
-    text-shadow: 5px 5px 5px rgb(250, 249, 249);
+    text-shadow: 5px 5px 5px rgba(223, 32, 32, 0.438);
 }
-.link01 {background-color: aqua;
+.link01 {background-color: rgba(213, 224, 224, 0.349);
     padding: 20px 30px;
     border-radius: 20px;
     margin: 5px;
     justify-items: center;
-    
+    text-shadow: 5px 5px 5px rgba(223, 32, 32, 0.438);
     padding: 0px;
 }
 .titulo1 {display: flex;
     
-    
+   position: relative;
     justify-content:center;
     align-content: center;
-    font-size: 75px;
+    font-size: 70px;
     font-family: 'Fredericka the Great', cursive;
     text-align: center;
-    overflow: hidden;
-    color: rgb(250, 242, 242);
-    background-color: black;
+    
+    color: rgb(255, 255, 255);
+    background-color: rgb(5, 4, 4);
 
 }
 .contenedor{
     display: grid;
-    grid-template-columns: 1fr 1fr auto; 
+    grid-template-columns: 1fr 1fr; 
     color: #b8c1ec;
     height: 100vh;
 
@@ -134,25 +143,21 @@ to {left: 200px;}
         color: #b8c1ec;
         padding: 10px;
         font-size: 18px;
-        height: 100%;
+        position: relative;
         padding: 10px;
     
 }
+.imagen_derecha{display:grid;
+                max-width: 100%;
+
+}
 .derecha{
-        display:grid;
-        grid-template-columns: auto auto;
-        grid-row:auto;
-        grid-column-start: auto;
-        align-items:center;
-        height: 100%;
-        
-        
-        
-    background: url(../image/blacksmith\ building\ 2.jpg);
-    background-position: center;
+    
+    
     background-size: cover;
-    color: #b8c1ec;
-        font-size: 18px;
+    color: #050e38;
+    font-size: 18px;
+    
     
     
 }
@@ -162,47 +167,41 @@ to {left: 200px;}
 
 
 
-.sticky_footer{display:grid ;
-    grid-template-columns: 1fr auto ;
-    grid-template-rows: 40px;
-    justify-content:space-between;
-    justify-items: center;
-    align-items: center;
+.fixed-bottom{
     background-color: black;
-    padding: 1em;
-    padding-left: 30px;
-    padding-right: 30px;
-    
+
+    position:relative;
     background: url(../image/header\ 1.png);
     background-position: center;
     background-size: cover;
+    width: 102%;
     
 
 }
 
-.sticky_footer{position: sticky;
-    top: 100%;
+.sticky-lg-bottom{position: sticky;
+    bottom: 100%;
 
 }
-.sticky_footer ul {
+.boton2 ul {
     display: flex;
     flex-direction: row;
     
 }
-.sticky_footer ul li {
+.boton2 ul li {
     list-style: none;
-    padding: 1em;
+
     position: relative;;
 } 
 
-.sticky_footer ul li a {color: black;
+.boton2 ul li a {color: black;
     text-decoration: none;
     text-transform: uppercase;
     font-size: small;
-    padding: 1em;
-    
+   
+    align-items: center;
 }
-.sticky_footer ul li a:hover {display: flex;
+.boton2 ul li a:hover {display: flex;
     transform: translate(20px 50px);
     animation: opacity  5s infinite;
     position: relative;

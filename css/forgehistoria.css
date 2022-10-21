@@ -1,0 +1,196 @@
+*{  padding: 0;
+    margin: 0;
+    
+}
+
+
+.sticky{ position: -webkit-sticky;
+    
+    position: sticky;
+    
+    top: 0%;
+
+    
+}
+
+@keyframes opacity{ 100% {opacity: 0;}
+from {left: 0px;}
+to {left: 200px;}
+
+}
+
+.p-2{
+    margin: 1px;
+    
+    
+    
+}
+
+.img-fluid{
+    align-items: flex-end;
+    justify-items:left;
+    height: 75%;
+    padding-left: 34px;
+    padding-top: 34px;
+
+}
+
+
+/* .container {
+    
+    justify-content:space-between;
+    justify-items: center;
+    align-items: center;
+    background-color: black;
+    padding: 2em;
+    padding-left: 30px;
+    padding-right: 30px
+    
+    
+    
+} */
+.nav justify-content-center ul {
+    border-radius: 01% color red;    
+}
+.nav-item ul li {
+    list-style: none;
+    padding: 50px;
+    position: relative
+} 
+
+.header2 ul li a {color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    
+    
+ }
+ .header2 ul li a:hover {display: grid;
+    grid-column-start: auto;
+    justify-content: center;
+    transform: translate(20px 50px);
+    transform:scale(1.5);
+    position: relative;
+    background-color: rgb(225, 225, 236);
+
+}
+.link{  
+    background-color: aqua;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin: 2px;
+    text-shadow: 5px 5px 5px rgb(250, 249, 249);
+}
+.link01 {background-color: aqua;
+    padding: 20px 30px;
+    border-radius: 20px;
+    margin: 5px;
+    justify-items: center;
+    
+    padding: 0px;
+}
+.h1{   
+    position: relative;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 200px;
+    color: rgb(12, 11, 11);
+    
+
+}
+.contenedor{
+    
+    
+    color: #b8c1ec;
+    height: 100vh;
+
+
+    background-color: black;
+    background-position: center;
+   
+   
+    padding: 10px;
+    color: #b8c1ec;
+    padding: 10px;
+    font-size: 18px;
+    height: 100%;
+    padding: 10px;
+}
+.izquierda{
+        
+        background-color: black;
+        
+        color: #b8c1ec;
+        
+        font-size: 18px;
+        
+        padding: 10px;
+    
+}
+.derecha{
+        display:grid;
+        grid-template-columns: auto auto;
+        grid-row:auto;
+        grid-column-start: auto;
+        align-items:center;
+        height: 100%;
+        color: black;
+        
+        
+    background: url(../image/blacksmith\ building\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #b8c1ec;
+        font-size: 18px;
+    
+    
+}
+.iconos{
+    height: 25px;
+}
+
+
+
+.sticky_footer{
+    justify-content:space-between;
+    justify-items: center;
+    align-items: center;
+    background-color: black;
+    padding: 1em;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    background: url(../image/header\ 1.png);
+    background-position: center;
+    background-size: cover;
+    
+
+}
+
+.sticky_footer{position: sticky;
+    bottom:  100%;
+
+}
+.sticky_footer ul {
+    display: flex;
+    flex-direction: row;
+    
+}
+.sticky_footer ul li {
+    list-style: none;
+    padding: 1em;
+    position: relative;;
+} 
+
+.sticky_footer ul li a {color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: small;
+    padding: 1em;
+    
+}
+.sticky_footer ul li a:hover {display: flex;
+    transform: translate(20px 50px);
+   
+    position: relative;
+    background-color: rgb(225, 225, 236);
+}
